@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Plain http:// is allowed because a Home Assistant box on a home network is
+     usually reached as http://<ip>:8123. If your server has HTTPS, use https://
+     URLs and set cleartextTrafficPermitted to "false": a bearer token sent over
+     http can be read by anything else on the network. -->
+<network-security-config xmlns:tools="http://schemas.android.com/tools">
+    <base-config
+        cleartextTrafficPermitted="true"
+        tools:ignore="InsecureBaseConfiguration" />
+</network-security-config>

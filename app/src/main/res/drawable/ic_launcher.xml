@@ -1,0 +1,17 @@
+<!-- Launcher icon: the bridge glyph on a filled circle (round, like the screen). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FF1F3A5F"
+        android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0" />
+    <group
+        android:translateX="12"
+        android:translateY="12">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M3,6h2v12h-2zM19,6h2v12h-2zM5,15.5v-2C5,9.9 8.1,7 12,7s7,2.9 7,6.5v2h-2v-2C17,11 14.8,9 12,9s-5,2 -5,4.5v2zM5,16h14v2h-14z" />
+    </group>
+</vector>

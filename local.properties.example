@@ -1,0 +1,28 @@
+# Copy this file to "local.properties" (same folder) and fill it in.
+# local.properties is git-ignored, so nothing here ends up in source control.
+# Android Studio adds the sdk.dir line for you the first time you open the project.
+
+# ---------------------------------------------------------------------------
+# >>> INSERT YOUR HOME ASSISTANT BEARER TOKENS HERE <<<
+#
+# Create one in Home Assistant: your profile (bottom-left) > Security >
+# Long-lived access tokens > Create token. Paste it after the "=" with no quotes.
+#
+# Each token is only ever sent to its own URL below, as
+#   Authorization: Bearer <token>
+#
+# Leave a token EMPTY when the URL does not need one. That is the case for:
+#   - Home Assistant webhook triggers:  http://<ha-ip>:8123/api/webhook/<webhook_id>
+#   - Tasker / AutoRemote / most other webhook receivers
+# You DO need a token for the Home Assistant REST API, for example:
+#   http://<ha-ip>:8123/api/services/light/toggle
+#   http://<ha-ip>:8123/api/events/gesturebridge
+# ---------------------------------------------------------------------------
+GESTURE_BEARER_TOKEN=
+BUTTON_BEARER_TOKEN=
+
+# Starting values for the two URLs, so you don't have to type them on the watch.
+# You can still change them later on the watch's config screen.
+# Use your server's IP address: ".local" names often do not resolve from a watch.
+DEFAULT_GESTURE_URL=
+DEFAULT_BUTTON_URL=
